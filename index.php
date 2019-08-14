@@ -124,7 +124,8 @@
 								<label for="contactDemoName">Name <span class="text-danger">*</span></label>
 								<div class="input-group">
 									<div class="input-group-prepend">
-										<div class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i>
+										<div class="input-group-text">
+											<i class="fa fa-user" aria-hidden="true"></i>
 										</div>
 									</div>
 									<input type="text" class="form-control" id="contactDemoName" name="contactDemoName" placeholder="Name">
@@ -134,8 +135,9 @@
 								<label for="contactDemoEmail">Email <span class="text-danger">*</span></label>
 								<div class="input-group">
 									<div class="input-group-prepend">
-										<div class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i>
-</div>
+										<div class="input-group-text">
+											<i class="fa fa-envelope" aria-hidden="true"></i>
+										</div>
 									</div>
 									<input type="email" class="form-control" id="contactDemoEmail" name="contactDemoEmail" placeholder="Email">
 								</div>
@@ -144,7 +146,8 @@
 								<label for="contactDemoSubject">Subject</label>
 								<div class="input-group">
 									<div class="input-group-prepend">
-										<div class="input-group-text"><i class="fa fa-pencil" aria-hidden="true"></i>
+										<div class="input-group-text">
+											<i class="fa fa-pencil" aria-hidden="true"></i>
 										</div>
 									</div>
 									<input type="text" class="form-control" id="contactDemoSubject" name="contactDemoSubject" placeholder="Subject">
@@ -154,7 +157,8 @@
 								<label for="contactDemoMessage">Message <span class="text-danger">*</span></label>
 								<div class="input-group">
 									<div class="input-group-prepend">
-										<div class="input-group-text"><i class="fa fa-comment" aria-hidden="true"></i>
+										<div class="input-group-text">
+											<i class="fa fa-comment" aria-hidden="true"></i>
 										</div>
 									</div>
 									<textarea class="form-control" rows="5" id="contactDemoMessage" name="contactDemoMessage" placeholder="I <3 CopyPasta :D~ (2000 characters max)"></textarea>
