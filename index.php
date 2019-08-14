@@ -8,6 +8,9 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+		<!-- Fontawesome -->
+		<script src="https://kit.fontawesome.com/db382e693f.js"></script>
+
 		<!-- jQuery - NOTE VERSION FOR FANCYBOX COMPATIBILITY  -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
@@ -106,5 +109,75 @@
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</section>
+
+		<!-- Begin Form Section -->
+		<section class="py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 offset-lg-4">
+
+						<h2 class="text-center">Contact Form!</h2>
+
+						<!--Begin Form -->
+						<form id="rochelles-demo-form" action="php/mailer.php" method="post">
+							<div class="form-group">
+								<label for="contactDemoName">Name <span class="text-danger">*</span></label>
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<div class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i>
+										</div>
+									</div>
+									<input type="text" class="form-control" id="contactDemoName" name="contactDemoName" placeholder="Name">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="contactDemoEmail">Email <span class="text-danger">*</span></label>
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<div class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i>
+</div>
+									</div>
+									<input type="email" class="form-control" id="contactDemoEmail" name="contactDemoEmail" placeholder="Email">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="contactDemoSubject">Subject</label>
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<div class="input-group-text"><i class="fa fa-pencil" aria-hidden="true"></i>
+										</div>
+									</div>
+									<input type="text" class="form-control" id="contactDemoSubject" name="contactDemoSubject" placeholder="Subject">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="contactDemoMessage">Message <span class="text-danger">*</span></label>
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<div class="input-group-text"><i class="fa fa-comment" aria-hidden="true"></i>
+										</div>
+									</div>
+									<textarea class="form-control" rows="5" id="contactDemoMessage" name="contactDemoMessage" placeholder="I <3 CopyPasta :D~ (2000 characters max)"></textarea>
+								</div>
+							</div>
+
+							<!-- reCAPTCHA -->
+							<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+						</form>
+
+						<!--empty area for form error/success output-->
+						<div class="row">
+							<div class="col-xs-12">
+								<div id="output-area"></div>
+							</div>
+						</div>
+
+					</div><!-- /.col-lg-4 -->
+				</div><!-- /.row -->
+			</div><!--/.container -->
+		</section>
+
 	</body>
 </html>
