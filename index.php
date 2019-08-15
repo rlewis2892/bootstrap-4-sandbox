@@ -130,7 +130,7 @@
 						<h2 class="text-center">Contact Form!</h2>
 
 						<!--Begin Form -->
-						<form id="rochelles-demo-form" action="php/mailer.php" method="post">
+						<form id="rochelles-demo-form" action="./php/mailer.php" method="post">
 							<div class="form-group">
 								<label for="contactDemoName">Name <span class="text-danger">*</span></label>
 								<div class="input-group">
@@ -177,20 +177,19 @@
 							</div>
 
 							<!-- reCAPTCHA -->
-							<div class="g-recaptcha" data-sitekey="6LeVtF0UAAAAAOtQHqB-rqVfEFJBEPbDXWAVXptg"></div>
+							<div class="g-recaptcha pt-2 pb-3" data-sitekey="6LeVtF0UAAAAAOtQHqB-rqVfEFJBEPbDXWAVXptg"></div>
 							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 						</form>
-
-						<!--empty area for form error/success output-->
-						<div class="row">
-							<div class="col-xs-12">
-								<div id="output-area"></div>
-							</div>
-						</div>
-
 					</div><!-- /.col-lg-4 -->
 				</div><!-- /.row -->
+
+				<!--empty area for form error/success output-->
+				<div class="row">
+					<div class="col-lg-4 offset-lg-4 py-3">
+						<div id="output-area"></div>
+					</div>
+				</div>
 			</div><!--/.container -->
 		</section>
 
