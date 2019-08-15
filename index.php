@@ -130,7 +130,7 @@
 						<h2 class="text-center">Contact Form!</h2>
 
 						<!--Begin Form -->
-						<form id="rochelles-demo-form" action="./php/mailer.php" method="post">
+						<form id="rochelles-demo-form" action="php/index.php" method="post">
 							<div class="form-group">
 								<label for="contactDemoName">Name <span class="text-danger">*</span></label>
 								<div class="input-group">
