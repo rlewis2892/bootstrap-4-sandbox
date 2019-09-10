@@ -56,6 +56,57 @@
 			</div>
 		</section>
 
+		<!-- BEGIN TRAIL CARDS SECTION -->
+		<section class="py-5">
+			<div class="container-fluid">
+				<div class="row">
+
+					<div class="col-xl-2 col-md-3 col-sm-6 mb-2">
+						<div class="d-flex flex-column border text-center p-3 h-100">
+							<h4 class="flex-grow-1 mb-4">Trail Name</h4>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+
+					<div class="col-xl-2 col-md-3 col-sm-6 mb-2">
+						<div class="d-flex flex-column border text-center p-3 h-100">
+							<h4 class="flex-grow-1 mb-4">Another Trail Name</h4>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+
+					<div class="col-xl-2 col-md-3 col-sm-6 mb-2">
+						<div class="d-flex flex-column border text-center p-3 h-100">
+							<h4 class="flex-grow-1 mb-4">Trail Name</h4>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+
+					<div class="col-xl-2 col-md-3 col-sm-6 mb-2">
+						<div class="d-flex flex-column border text-center p-3 h-100">
+							<h4 class="flex-grow-1 mb-4">Much Longer Trail Name Right Here</h4>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+
+					<div class="col-xl-2 col-md-3 col-sm-6 mb-2">
+						<div class="d-flex flex-column border text-center p-3 h-100">
+							<h4 class="flex-grow-1 mb-4">Trail Name</h4>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+
+					<div class="col-xl-2 col-md-3 col-sm-6 mb-2">
+						<div class="d-flex flex-column border text-center p-3 h-100">
+							<h4 class="flex-grow-1 mb-4">Some Trail Name :P</h4>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+
+				</div><!--/.row-->
+			</div><!--/.container-fluid-->
+		</section>
+
 		<!-- Begin Gallery Section -->
 		<section>
 			<div class="container">
