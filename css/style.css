@@ -7,4 +7,7 @@
 * GLOBAL STYLES
 *****************************/
 
-
+/* required for bootstrap scrollspy */
+body {
+	position: relative;
+}
