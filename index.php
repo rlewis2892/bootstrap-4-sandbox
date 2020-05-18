@@ -136,7 +136,7 @@
 		<section id="contact" class="py-5">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 col-lg-4 offset-md-3 offset-lg-4">
+					<div class="col-md-6 offset-md-3">
 						<h3 class="text-center mb-4">Contact Me</h3>
 						<!-- Begin Sample Contact Form. Create your own contact form. Do not copy and paste this one. -->
 						<form id="rochelles-demo-form" action="../php/" method="post">
