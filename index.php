@@ -41,6 +41,9 @@
 								<a class="nav-link" href="#contact">Contact</a>
 							</li>
 							<li class="nav-item">
+								<a class="nav-link" href="mockup.php">Mockup</a>
+							</li>
+							<li class="nav-item">
 								<a class="nav-link" href="https://github.com/rlewis2892/bootstrap-4-sandbox/tree/cohort-29-css" target="_blank">GitHub</a>
 							</li>
 						</ul>
