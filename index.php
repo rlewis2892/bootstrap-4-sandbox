@@ -12,7 +12,7 @@
 		<script src="https://kit.fontawesome.com/db382e693f.js" crossorigin="anonymous"></script>
 
 		<!-- Custom CSS -->
-		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<!--<link rel="stylesheet" href="css/style.css" type="text/css">-->
 
 		<title>Bootstrap Custom Style Example</title>
 	</head>
