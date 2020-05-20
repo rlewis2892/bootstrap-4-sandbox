@@ -20,7 +20,7 @@
 		<!-- navbar -->
 		<header>
 			<div class="container-fluid">
-				<nav id="main-nav" class="navbar navbar-expand">
+				<nav id="main-nav" class="navbar navbar-expand fixed-top">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -70,9 +70,9 @@
 		</header>
 
 		<!-- welcome section -->
-		<section id="welcome" class="d-flex align-items-center">
+		<section id="welcome" class="d-flex align-items-center py-10">
 			<div class="container d-flex justify-content-center">
-				<div class="jumbotron text-right my-5">
+				<div class="jumbotron text-right my-5 bg-transparent-dark">
 					<h1>Hello Custom Bootstrap!</h1>
 					<p class="lead mb-0">A George Kephart Compatible PWP example.</p>
 				</div>
@@ -80,7 +80,7 @@
 		</section>
 
 		<!-- about me content section -->
-		<section id="about" class="py-5">
+		<section id="about" class="bg-transparent-dark py-10 text-light">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-lg-4 mb-3">
@@ -97,7 +97,7 @@
 		</section>
 
 		<!-- card content section -->
-		<section id="gallery" class="py-5">
+		<section id="gallery" class="py-10">
 			<div class="container">
 				<div class="row">
 					<div class="col text-center mb-4">
@@ -148,7 +148,7 @@
 		</section>
 
 		<!-- contact form section -->
-		<section id="contact" class="py-5">
+		<section id="contact" class="py-10">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 offset-md-2">
@@ -234,5 +234,8 @@
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+		<!-- custom js -->
+		<script src="js/custom.js"></script>
 	</body>
 </html>

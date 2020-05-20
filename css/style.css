@@ -2,7 +2,149 @@
 * Custom CSS
 * author: Rochelle Lewis rlewis37@cnm.edu
 *****************************/
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Press+Start+2P&family=Roboto:ital,wght@0,400;0,900;1,400;1,900&display=swap');
 
 /****************************
 * CUSTOM UTILS
 *****************************/
+.bg-transparent-dark {
+	background-color: rgba(0,0,0,0.75);
+}
+
+.py-10 {
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+}
+
+/****************************
+* CUSTOM BOOTSTRAP OVERRIDES
+*****************************/
+p.lead {
+	text-transform: uppercase;
+	font-weight: 900;
+	line-height: 1.75rem;
+}
+
+/****************************
+* GLOBAL STYLES
+*****************************/
+body {
+	background: url(../img/bg-image.jpg) no-repeat center right fixed;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+	/* required for bootstrap scrollspy */
+	position: relative;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+	-webkit-transition: all 250ms ease;
+	-moz-transition: all 250ms ease;
+	-ms-transition: all 250ms ease;
+	-o-transition: all 250ms ease;
+	transition: all 250ms ease;
+}
+
+/****************************
+* NAVBAR
+*****************************/
+nav.navbar {
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.navbar-dark {
+	background-color: #000;
+}
+
+.navbar-inverse {
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: yellow;
+}
+
+@media only screen and (min-width: 768px) {
+	.navbar-expand .navbar-nav .nav-link {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+/****************************
+* WELCOME
+*****************************/
+section#welcome {
+	min-height: 100vh;
+}
+
+.jumbotron h1 {
+	color: yellow;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: 10px solid yellow;
+	padding: 2rem;
+	text-shadow: 0.075em 0.075em 0 orchid;
+}
+
+section#welcome .jumbotron {
+	border-radius: 0;
+}
+
+.jumbotron p.lead {
+	color: yellow;
+}
+
+/****************************
+* ABOUT ME
+*****************************/
+
+
+/****************************
+* GALLERY
+*****************************/
+section#gallery {
+	background-color: orchid;
+}
+
+/****************************
+* CONTACT
+*****************************/
+section#contact {
+	background-color: rgba(255,255,255,0.85);
+}
+
+.form-control,
+.input-group-text {
+	background-color: transparent;
+	border: 1px solid #333;
+	border-radius: 0;
+}
+
+.form-control:focus {
+	background-color: hotpink;
+}
+
+button.btn {
+	border-radius: 0;
+}
+
+/****************************
+* FOOTER
+*****************************/
+footer {
+	background-color: yellow;
+}

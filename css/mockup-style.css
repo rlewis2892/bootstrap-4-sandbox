@@ -49,13 +49,6 @@ button.btn {
 	border-radius: 0;
 }
 
-@media only screen and (min-width: 768px) {
-	.navbar-expand .navbar-nav .nav-link {
-		padding-left: 1rem;
-		padding-right: 1rem;
-	}
-}
-
 /****************************
 * GLOBAL STYLES
 *****************************/
@@ -108,14 +101,10 @@ nav.navbar {
 	color: yellow;
 }
 
-/* embiggen nav on md and lg screens only*/
-@media only screen and (min-width: 992px) {
-	.navbar-inverse {
-		background-color: transparent;
-	}
-
-	.navbar-brand {
-		font-size: 2rem;
+@media only screen and (min-width: 768px) {
+	.navbar-expand .navbar-nav .nav-link {
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 }
 
