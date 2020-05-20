@@ -133,7 +133,7 @@ section#welcome .jumbotron h1 {
 	display: inline-block;
 	font-weight: 900;
 	padding: 2rem;
-	text-shadow: 8px 8px black;
+	text-shadow: 8px 8px orchid;
 	text-transform: uppercase;
 }
 
@@ -173,7 +173,7 @@ section#gallery {
 
 section#gallery h3 {
 	font-family: 'Bungee Shade', 'Times New Roman', serif;
-	text-shadow: -3px 3px 0 white;
+	text-shadow: -3px 3px 0 yellow;
 }
 
 @media only screen and (min-width: 992px) {
