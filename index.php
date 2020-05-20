@@ -109,7 +109,7 @@
 				<div class="row pt-5">
 					<div class="col-8 offset-2 offset-sm-0 col-sm-6 col-lg-3 mb-2">
 						<div class="card h-100">
-							<img src="http://www.fillmurray.com/g/250/250" class="card-img-top" alt="fillmurray.com">
+							<img src="img/gkephart.png" class="card-img-top" alt="george kephart">
 							<div class="card-body">
 								<h5 class="card-title">Google Fonts</h5>
 								<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -118,7 +118,7 @@
 					</div>
 					<div class="col-8 offset-2 offset-sm-0 col-sm-6 col-lg-3 mb-2">
 						<div class="card h-100">
-							<img src="http://www.fillmurray.com/g/250/250" class="card-img-top" alt="fillmurray.com">
+							<img src="img/gkephart.png" class="card-img-top" alt="george kephart">
 							<div class="card-body">
 								<h5 class="card-title">Fontawesome.io</h5>
 								<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -127,7 +127,7 @@
 					</div>
 					<div class="col-8 offset-2 offset-sm-0 col-sm-6 col-lg-3 mb-2">
 						<div class="card h-100">
-							<img src="http://www.fillmurray.com/g/250/250" class="card-img-top" alt="fillmurray.com">
+							<img src="img/gkephart.png" class="card-img-top" alt="george kephart">
 							<div class="card-body">
 								<h5 class="card-title">Unsplash.com</h5>
 								<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -136,7 +136,7 @@
 					</div>
 					<div class="col-8 offset-2 offset-sm-0 col-sm-6 col-lg-3 mb-2">
 						<div class="card h-100">
-							<img src="http://www.fillmurray.com/g/250/250" class="card-img-top" alt="fillmurray.com">
+							<img src="img/gkephart.png" class="card-img-top" alt="george kephart">
 							<div class="card-body">
 								<h5 class="card-title">Bootstrap</h5>
 								<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
