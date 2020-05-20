@@ -107,7 +107,7 @@
 				</div>
 
 				<div class="row pt-5">
-					<div class="col-6 col-lg-3 mb-2">
+					<div class="col-8 offset-2 offset-sm-0 col-sm-6 col-lg-3 mb-2">
 						<div class="card h-100">
 							<img src="http://www.fillmurray.com/g/250/250" class="card-img-top" alt="fillmurray.com">
 							<div class="card-body">
@@ -116,7 +116,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-6 col-lg-3 mb-2">
+					<div class="col-8 offset-2 offset-sm-0 col-sm-6 col-lg-3 mb-2">
 						<div class="card h-100">
 							<img src="http://www.fillmurray.com/g/250/250" class="card-img-top" alt="fillmurray.com">
 							<div class="card-body">
@@ -125,7 +125,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-6 col-lg-3 mb-2">
+					<div class="col-8 offset-2 offset-sm-0 col-sm-6 col-lg-3 mb-2">
 						<div class="card h-100">
 							<img src="http://www.fillmurray.com/g/250/250" class="card-img-top" alt="fillmurray.com">
 							<div class="card-body">
@@ -134,7 +134,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-6 col-lg-3 mb-2">
+					<div class="col-8 offset-2 offset-sm-0 col-sm-6 col-lg-3 mb-2">
 						<div class="card h-100">
 							<img src="http://www.fillmurray.com/g/250/250" class="card-img-top" alt="fillmurray.com">
 							<div class="card-body">
@@ -222,7 +222,7 @@
 		<footer class="py-5">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-6 offset-md-6 text-center text-md-right">
+					<div class="col text-center">
 						<h4>Custom Styles Example</h4>
 						<a class="lead text-body" href="https://github.com/rlewis2892/bootstrap-4-sandbox/tree/cohort-29-css" target="_blank">View this project on GitHub</a>
 					</div>
